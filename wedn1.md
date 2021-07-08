@@ -1,9 +1,9 @@
 # Fashion MINST
 ## Preprocess the data
 - Three images picked from the training data before any preprocessing.
-![Image 300](/images/https://github.com/DylanHartman/data310/blob/main/module1_clothing_image_preproc1.png)
-![Image 3000](/images/https://github.com/DylanHartman/data310/blob/main/module1_clothing_image_preproc2.png)
-![Image 30000](/images/https://github.com/DylanHartman/data310/blob/main/module1_clothing_image_preproc3.png)
+![Image 300](module1_clothing_image_preproc1.png)
+![Image 3000](module1_clothing_image_preproc2.png)
+![Image 30000](module1_clothing_image_preproc3.png)
 
 ## Make Predictoions
 - This is the array of predictions for the test image with index 300: array([3.7368207e-04, 3.9547193e-04, 4.1014126e-05, 9.9806482e-01,
