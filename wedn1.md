@@ -23,7 +23,7 @@ The is the array of predictions for test image 500: [4.1152876e-02 6.2762279e-05
 - The model correctly predicted that the image was a pullover.
 - softmax was already included in the code used to generate prediction matrices/predictions, so it would warp the data in no helpful way if used twice on the data.
 
-## Digits MINST
+# Digits MINST
 ![25 handwritten digits](img_4.png)
 - The model fit had an accuracy of 0.9949 on the train data, 0.9778 on the test data
 ![image of a 7](img_5.png)
