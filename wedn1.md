@@ -1,9 +1,9 @@
 # Fashion MINST
 ## Preprocess the data
 - Three images picked from the training data before any preprocessing.
-![Image 300](module1_clothing_image_preproc1.png)
-![Image 3000](module1_clothing_image_preproc2.png)
-![Image 30000](module1_clothing_image_preproc3.png)
+![Image 300](images/module1_clothing_image_preproc1.png)
+![Image 3000](images/module1_clothing_image_preproc2.png)
+![Image 30000](images/module1_clothing_image_preproc3.png)
 
 ## Make Predictoions
 - This is the array of predictions for the test image with index 300: array([3.7368207e-04, 3.9547193e-04, 4.1014126e-05, 9.9806482e-01,
@@ -13,19 +13,19 @@
 - Yes, the output from argmax is equal to the test label.
 
 ## Verify Predictions
-![image 30](img.png)
-![image 40](img_1.png)
+![image 30](images/img.png)
+![image 40](images/img_1.png)
 
 ## Use the Trained Model
-![Predictions for test image 500](img_2.png)
+![Predictions for test image 500](images/img_2.png)
 The is the array of predictions for test image 500: [4.1152876e-02 6.2762279e-05 5.7496119e-01 5.0511945e-04 4.7565032e-02
   2.1253111e-06 3.3462614e-01 1.7045195e-07 1.0369449e-03 8.7586945e-05]]
 - The model correctly predicted that the image was a pullover.
 - softmax was already included in the code used to generate prediction matrices/predictions, so it would warp the data in no helpful way if used twice on the data.
 
 # Digits MINST
-![25 handwritten digits](img_4.png)
+![25 handwritten digits](images/img_4.png)
 - The model fit had an accuracy of 0.9949 on the train data, 0.9778 on the test data
-![image of a 7](img_5.png)
-![image of a 1](img_6.png)
+![image of a 7](images/img_5.png)
+![image of a 1](images/img_6.png)
 - After running both models repeatedly, the digits model semed to consistantly score at 95% and above on its accuracy on the test data, while the fashion model scored lower 90s and upper 80s accuracy scores on its test data. To me, that says that the digits model is more accurate.
