@@ -14,4 +14,4 @@
    - The 3 MSE's from the new models.
      Bedrooms: 41.349876570545774
      Bathrooms: 34.17113718292804
-     Living Area: 25.86756573722997a
+     Living Area: 25.86756573722997
