@@ -10,6 +10,7 @@
     - [Monday's Response](mon2.md)
     - [Tuesday's Response](tues2.md)
     - [Tuesday's 2nd part Response](tues2_2.md)
+    - [Thursday's Response](thurs2.md)
 
 ## Projects
 
