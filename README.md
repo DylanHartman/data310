@@ -1,6 +1,6 @@
 # Index for Applied Machine Learning
 
-## Informal Exercise
+## Informal Exercises
 - Module 1
     - [Tuesdays Response](tues1.md)
     - [Wednesdays Response](wedn1.md)
