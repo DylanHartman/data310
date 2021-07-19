@@ -25,9 +25,8 @@
     - The resulting image is 1/4 of the size of the original image
     - This method is useful because it allows to further reduce the size of the image while also preserving and even exaggerating the structures in those images
     - This is the new array I got convoluting the 3x3 filter onto the 9x9 array
-
     
-      [[0, 0, 0, 0, 1, 0, 0, 0, 0],
+      `[[0, 0, 0, 0, 1, 0, 0, 0, 0],
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
@@ -35,4 +34,4 @@
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
        [0, 0, 0, 1, 1, 1, 0, 0, 0],
-       [0, 0, 0, 0, 1, 0, 0, 0, 0]]
+       [0, 0, 0, 0, 1, 0, 0, 0, 0]]`
