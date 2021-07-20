@@ -21,7 +21,8 @@ val_accuracy: 0.6770
    - The eurosat model saw an increase in validation accuracy. The train accuracy fell, but the increase in validation accuracy tells me the model overall became better because the model's ability to make accurate predictions with new data improved.
    - Running the models with 7 epochs added around 5/10 minutes to the runtime, but yeilded much better results. Accuracies went up, and loss went down. I suspect that there is still room to improve the model by running more epochs.
 
-This is a spread of images to illustrate how the random contrast and flip is altering the images
+This is a spread of images to illustrate how the random contrast and flip data augmentation layers are altering the images
+
 ![img_1.png](img_1.png)
 
 ```
