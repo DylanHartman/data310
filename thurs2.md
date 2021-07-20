@@ -1,6 +1,6 @@
 #Thursday 2 Responses: 
 1. Present your results and discuss the accuracy of each of model.
-    - Running both models revealed that the model had more success on validation data with the beans dataset than the eurosat datasets. The model performed better on the train data of the euroset dataset than the validation data, which tells me that the model is overfit for the eurosat datasets. The beans model was more accurate on the validation data than the train data, which tells me it is underfit
+    - Running both models revealed that it had more success with the beans dataset than the eurosat datasets based on the validation accuracy and validation loss. The eurosat model had a higher training accuracy than validation accuracy, which tells me it's possibly an overfit model. The beans model was more accurate on the validation data than the train data, which tells me it is probably underfit
     
 ```
 beans
