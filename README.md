@@ -16,7 +16,7 @@
   - [Monday's Response](mon3.md)
   - [Tuesday's Response]()
   - [Wednesday Response](wedn3.md)
-  - [Thursday's Response](https://github.com/johnkwillis/data310/blob/c33d4a1c703ca152efbca43bf30dd6b948a667f0/thursday3.md)
+  - [Thursday's Response](https://johnkwillis.github.io/data310/thursday3.html)
 ## Projects
 
 - [Project 1](project1.md)
