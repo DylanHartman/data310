@@ -23,7 +23,7 @@ val_accuracy: 0.6770
 
 This is a spread of images to illustrate how the random contrast and flip data augmentation layers are altering the images
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1_leaves.png)
 
 ```
 beans with augmentation at 3 epochs
