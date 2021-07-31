@@ -23,10 +23,36 @@ Wealth Class 5: loss: 0.0997 - accuracy: 0.9594 - val_loss: 0.0979 - val_accurac
 - The confusion matrix for wealth class 5 shows that the model was good at predicting 5s because there were so few of them, and you can see were the model predicted 9,000 of the instances were not 5s. The data is skewed to where there are so few 4s and 5s compared to 1s,2s,and 3s. A model like this one that is resistant to predicting an instance as a 1 will struggle on the more plentiful data groups while smaller ones will be more appear more accurate because 0 is disproportionally the correct answer for that data group. For that reason I am not so sure I trust these model's high accuracies at wealth classes 4 and 5.
 
 
-##Part 3
+##Part 3: All Wealth Classes
+###First Model
+- The first model I got working used feature columns to produce the model. It has 3 layers  with 8, 16, and 32 neurons using the rectified linear unit activation function and one layer with five neurons using the softmax activation function. The data was in batches of 128. I kinda just played around with the numbers of batch size and neuron/layer amounts to maximize accuracy and keep the val loss near or under the training loss to avoid overfitting.
+
+![img.png](img.png)
 
 ```
-All Wealth Classes: loss: 0.9405 - sparse_categorical_accuracy: 0.5710 - val_loss: 0.9201 - val_sparse_categorical_accuracy: 0.5742
-                    loss: 0.9197 - sparse_categorical_accuracy: 0.5794
+All Wealth Classes First Model: loss: 0.9461 - sparse_categorical_accuracy: 0.5769 - val_loss: 0.9279 - val_sparse_categorical_accuracy: 0.5815
+                                loss: 0.9246 - sparse_categorical_accuracy: 0.5787
 ```
-![img_3.png](images/img_3_project3.png)
+
+- I will bucket the age and toilet features to try to bring the accuracy up.
+
+
+###Age Bucketed Model
+```
+All Wealth Classes: loss: 0.9327 - sparse_categorical_accuracy: 0.5778 - val_loss: 0.9247 - val_sparse_categorical_accuracy: 0.5786
+                    loss: 0.9178 - sparse_categorical_accuracy: 0.5873
+```
+- Bucketing the ages using a feature column with boundaries [7, 16, 21, 32, 60] produced a model that was around 0.01 more accurate on the test data, and around the same decrease in loss.
+
+![img_1.png](img_1.png)
+
+
+###Age Bucketed and Toilet Bucketed Model
+- Bucketing the toilets and the ages in the model actually caused it to perform worse on the test data than just the ages bucketed model, by about 0.01 accuracy.
+
+```
+All Wealth Classes: loss: loss: 0.9352 - sparse_categorical_accuracy: 0.5723 - val_loss: 0.9359 - val_sparse_categorical_accuracy: 0.5715
+                    loss: 0.9263 - sparse_categorical_accuracy: 0.5786
+```
+
+![img_2.png](img_2.png)
