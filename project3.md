@@ -3,13 +3,13 @@
 ##Part 1
 For predicting each wealth class vs the others I used a sequential model with 2 dense layers, one with 8 neurons and another with 16. I played around with the dropout rates and different numbers of neurons to see if I could control the overfitting that occurs when the amount of layers/neurons is increased. I ended up just sticking with a dropout rate of 0.1.
 
-- The wealth class the model was the least accurate on was wealth class 2.
+- The wealth class the model was the least accurate on wealth class 2.
 ```
 Wealth CLass 2: loss: loss: 0.4813 - accuracy: 0.7381 - val_loss: 0.4756 - val_accuracy: 0.7426
                       loss: 0.4829 - accuracy: 0.7375
 ```
 
-- The wealth class the model was the most accurate on was wealth class 5.
+- The wealth class the model was the most accurate on wealth class 5.
 ```
 Wealth Class 5: loss: 0.0997 - accuracy: 0.9594 - val_loss: 0.0979 - val_accuracy: 0.9619
                 loss: 0.1051 - accuracy: 0.9607
@@ -24,6 +24,7 @@ Wealth Class 5: loss: 0.0997 - accuracy: 0.9594 - val_loss: 0.0979 - val_accurac
 
 
 ##Part 3: All Wealth Classes
+
 ###First Model
 - The first model I got working used feature columns to produce the model. It has 3 layers  with 8, 16, and 32 neurons using the rectified linear unit activation function and one layer with five neurons using the softmax activation function. The data was in batches of 128. I kinda just played around with the numbers of batch size and neuron/layer amounts to maximize accuracy and keep the val loss near or under the training loss to avoid overfitting.
 
