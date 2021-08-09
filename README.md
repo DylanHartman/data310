@@ -26,7 +26,7 @@
 ## Projects
 
 - [Project 1](project1.md)
-- Project 3
+- [Project 3](project3.md)
 - [Project 4](https://eanelson01.github.io/DATA310/mod4/project4.html)
 - Project 5
   - [Video Presentation](https://drive.google.com/file/d/1iMRrbp3j4DdnlQ9eK6ccAlaaITdjeSuG/view?usp=sharing)
