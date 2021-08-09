@@ -19,8 +19,8 @@
   - [Thursday's Response](https://johnkwillis.github.io/data310/thursday3.html)
   
 - Module 4
-  - []
-  - []
+  - [Wednesday's Response]
+  - [Thursday's Response]
 ## Projects
 
 - [Project 1](project1.md)
