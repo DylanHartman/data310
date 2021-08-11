@@ -30,4 +30,4 @@
 - [Project 4](https://eanelson01.github.io/DATA310/mod4/project4.html)
 - Project 5
   - [Video Presentation](https://drive.google.com/file/d/1iMRrbp3j4DdnlQ9eK6ccAlaaITdjeSuG/view?usp=sharing)
-  - [Abstract and Slides]
+  - [Abstract and Slides](abstract.md)
