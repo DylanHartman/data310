@@ -14,7 +14,7 @@
   
 - Module 3
   - [Monday's Response](mon3.md)
-  - [Tuesday's Response]()
+  - [Tuesday's Response](tues3.md)
   - [Wednesday Response](wedn3.md)
   - [Thursday's Response](https://johnkwillis.github.io/data310/thursday3.html)
   
@@ -28,6 +28,6 @@
 - [Project 1](project1.md)
 - [Project 3](project3.md)
 - [Project 4](https://eanelson01.github.io/DATA310/mod4/project4.html)
-- Project 5
+- Final Project
   - [Video Presentation](https://drive.google.com/file/d/1iMRrbp3j4DdnlQ9eK6ccAlaaITdjeSuG/view?usp=sharing)
   - [Abstract and Slides](abstract.md)
